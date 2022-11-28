@@ -1,7 +1,7 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    box-sizing: border-box; /*tells browser to account for any border and padding values specified*/
+    padding: 0; /*sets webpage to 0 pixel/no padding*/
+    margin: 0; /*sets webpage to 0 pixel/no margin*/
 }
 
 body {
@@ -76,6 +76,23 @@ main {
     margin-left: 20px; /*sets relevant elements margin area on left of element to 25 pixels*/
 }
 
+main section {
+    margin-bottom: 20px; /*sets relevant elements margin area on bottom of element to 20 pixels*/
+    padding: 50px; /*sets padding to 50 pixels*/
+    height: 300px; /*sets height of relevant elements to 300 pixels*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family to "Gill Sans..." for relevant elements*/
+    background-color: #0072bb; /*sets background colour to blue*/
+    color: #ffffff; /*sets element text colour to white*/
+}
+
+main img {
+    max-height: 200px; /*sets maximum height of relevant elements to 200 pixels*/
+}
+
+main h2 {
+    margin-bottom: 20px; /*sets relevant elements margin area on bottom of element to 20 pixels*/
+    font-size: 36px; /*sets font size to 36 pixels*/
+}
 
 aside {
     margin-right: 20px; /*sets relevant elements margin area on right of element to 20 pixels*/
@@ -102,24 +119,6 @@ aside section img {
     display: block; /*displays element as block element*/
     margin: 10px auto; /*sets margin to 10 pixels for top and bottom and browser auto selects for right and left*/
     max-width: 150px; /*sets maximum width of relevant elements to 150 pixels*/
-}
-
-main section {
-    margin-bottom: 20px; /*sets relevant elements margin area on bottom of element to 20 pixels*/
-    padding: 50px; /*sets padding to 50 pixels*/
-    height: 300px; /*sets height of relevant elements to 300 pixels*/
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family to "Gill Sans..." for relevant elements*/
-    background-color: #0072bb; /*sets background colour to blue*/
-    color: #ffffff; /*sets element text colour to white*/
-}
-
-main img {
-    max-height: 200px; /*sets maximum height of relevant elements to 200 pixels*/
-}
-
-main h2 {
-    margin-bottom: 20px; /*sets relevant elements margin area on bottom of element to 20 pixels*/
-    font-size: 36px; /*sets font size to 36 pixels*/
 }
 
 footer {
