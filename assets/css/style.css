@@ -5,128 +5,130 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /*sets the color of body element to white*/
 }
 
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+header { /*sets header properties*/
+    padding: 20px; /*sets padding to 20 pixels*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*sets font family to "Trebuchet MS..." for relevant elements*/
+    background-color: #2a607c; /*sets background colour to blue*/
+    color: #ffffff; /*sets element text colour to white*/
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /*sets h1 elements to display as inline-level block container*/
+    font-size: 48px; /*sets h1 elements to 48 pixel font size*/
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /*sets class 'seo' to grey colour to stand out*/
 }
 
-header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+header nav { 
+    padding-top: 15px; /*sets top padding for relevant elements to 15 pixels*/
+    margin-right: 20px; /*sets relevant elements margin area on right of element to 20 pixels*/
+    float: right; /*sets relevant elements to float to the right*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family to "Gill Sans..." for relevant elements*/
+    font-size: 20px; /*sets font size to 20 pixels*/
 }
 
 header nav ul {
-    list-style-type: none;
+    list-style-type: none; /*sets marker of list elements to nothing*/
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-block; /*sets relevant elements to display as inline-level block container*/
+    margin-left: 25px; /*sets relevant elements margin area on left of element to 25 pixels*/
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /*sets element text colour to white*/
+    text-decoration: none; /*removes underlines from links*/
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /*sets font size to 16 pixels*/
 }
 
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    height: 800px; /*defines height of element as 100% of block's height*/
+    width: 100%; /*defines width of element as 100% of block's width*/
+    margin-bottom: 25px; /*sets relevant elements margin area on bottom of element to 25 pixels*/
+    background-image: url("../images/digital-marketing-meeting.jpg"); /*sets background to linked image*/
+    background-size: cover; /*scales imgae to fill the container*/
+    background-position: center; /*sets image to center*/
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+    float: left; /*sets relevant elements to float to the left*/
+    margin-right: 25px; /*sets relevant elements margin area on right of element to 25 pixels*/
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+    float: right; /*sets relevant elements to float to the right*/
+    margin-left: 25px; /*sets relevant elements margin area on left of element to 25 pixels*/
 }
+
 
 main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+    width: 75%; /*defines width of element as 75% of block's width*/
+    display: inline-block; /*sets main elements to display as inline-level block container*/
+    margin-left: 20px; /*sets relevant elements margin area on left of element to 25 pixels*/
 }
 
+
 aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    margin-right: 20px; /*sets relevant elements margin area on right of element to 20 pixels*/
+    padding: 20px; /*sets padding to 20 pixels*/
+    clear: both; /*specifies both sides of the element are not allowed to float*/
+    float: right; /*sets relevant elements to float to the right*/
+    width: 20%; /*defines width of element as 20% of block's width*/
+    height: 100%; /*defines height of element as 100% of block's height*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family to "Gill Sans..." for relevant elements*/
+    background-color: #2589bd; /*sets background colour to blue*/
 }
 
 aside section{
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: 32px; /*sets relevant elements margin area on bottom of element to 32 pixels*/
+    color: #ffffff; /*sets element text colour to white*/
 }
 
 aside section h3 {
-    margin-bottom: 10px;
-    text-align: center;
+    margin-bottom: 10px; /*sets relevant elements margin area on bottom of element to 10 pixels*/
+    text-align: center; /*aligns text center*/
 }
 
 aside section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    display: block; /*displays element as block element*/
+    margin: 10px auto; /*sets margin to 10 pixels for top and bottom and browser auto selects for right and left*/
+    max-width: 150px; /*sets maximum width of relevant elements to 150 pixels*/
 }
 
 main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    margin-bottom: 20px; /*sets relevant elements margin area on bottom of element to 20 pixels*/
+    padding: 50px; /*sets padding to 50 pixels*/
+    height: 300px; /*sets height of relevant elements to 300 pixels*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*sets font family to "Gill Sans..." for relevant elements*/
+    background-color: #0072bb; /*sets background colour to blue*/
+    color: #ffffff; /*sets element text colour to white*/
 }
 
 main img {
-    max-height: 200px;
+    max-height: 200px; /*sets maximum height of relevant elements to 200 pixels*/
 }
 
 main h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 20px; /*sets relevant elements margin area on bottom of element to 20 pixels*/
+    font-size: 36px; /*sets font size to 36 pixels*/
 }
 
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    padding: 30px; /*sets padding to 30 pixels*/
+    clear: both; /*specifies both sides of the element are not allowed to float*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*sets font family to "Trebuchet MS..." for relevant elements*/
+    text-align: center; /*aligns text center*/
 }
 
 footer h2 {
-    font-size: 20px;
+    font-size: 20px; /*sets font size to 20 pixels*/
 }
